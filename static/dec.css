@@ -1,0 +1,39 @@
+body,html
+{
+display: flex;
+flex-direction: column;
+align-item: center;
+
+justify-content:center;
+}
+.navbar
+{
+ position: fixed;
+ z-index: 1000;
+}
+.topdiv, .table-total {
+        width: 80%; /* 60% of the page width */
+        margin: 0 auto; /* Centers the div horizontally */
+        padding: 20px;
+        box-sizing:border-box;
+    }
+.image-container,
+{
+    padding:20px 0px 0px 0px;
+}
+.table-total
+{
+height: 55vh;
+ border: 1px solid #ccc;
+    overflow-y: auto; /* Enable vertical scrolling */
+            overflow-x: hidden;
+}
+
+.oswald-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-size:100;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid #ccc;
+}
