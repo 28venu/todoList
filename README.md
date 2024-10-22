@@ -1,2 +1,0 @@
-# todoList
-flask todoList
